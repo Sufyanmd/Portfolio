@@ -2,41 +2,66 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: #0c0c0c;
-    color: #f0f0f0; */
 }
-
-/* main{
-    font-family: "Jersey 10", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-} */
 
 html, body{
     height: 100%;
     width: 100%;
+    background-color: #0f0f0f;
+    color: #f0f0f0;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 main{
-    /* height: 100%; */
     width: 100%;
     max-width: 768px;  
     margin: 0 auto;   
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
-    /* display: flex;
-    justify-content: center; */
 }
 
 
 nav{
   height: 100px;
   width: 100%;
-  background: aquamarine;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 1rem;
+}
+
+#profile_logo{
+    height: 60px;
+    border: 0.5px solid #f0f0f0;
+    border-radius: 20%;
+    margin-left: 1em;
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    gap: 6vw;
+    letter-spacing: 3px;
+    font-size: 1.1em;
+}
+
+.features h4{
+    border: 2px solid transparent;
+}
+
+.features h4:hover{
+    border-color: #f0f0f0;
+
+}
+
+#darkMode{
+    margin: 1em;
+    size: 1em;
+    padding: 0.5em;
+    border: 1px solid #4d4848;
+    border-radius: 100%;
 }
 
 @media (max-width: 768px){
@@ -45,15 +70,4 @@ nav{
         max-width: 100%;
     }
 
-  nav{
-    /* width: 100%; */
-    background-color: brown;
-  }
 }
-
-
-
-
-
-
-
